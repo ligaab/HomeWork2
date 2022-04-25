@@ -14,3 +14,38 @@ phone.Size = size;
 phone.Mark = model;
 
 
+Console.WriteLine();
+Console.WriteLine("=============================");
+Console.WriteLine();
+
+
+
+Car car = new Car();
+
+car.Brand = "BMW";
+car.Speed = 100;
+car.Nummber = "GH 989";
+
+
+
+string CarName = car.Brand;
+Console.WriteLine($"Cars mark: { CarName}");
+
+string CarNummber = car.Nummber;
+Console.WriteLine($"Cars plate nummber is {CarNummber}");
+
+double CarSpeed = car.Speed;
+Console.WriteLine($"Car is driving {CarSpeed} KM/H");
+
+car.StartToDrive();
+
+car.GoFaster();
+
+car.Beep();
+
+car.SlowDown();
+
+
+
+
+
